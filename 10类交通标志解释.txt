@@ -1,0 +1,16 @@
+
+标志解释：
+30-limit  					红色圆  		30			
+60-limit  					红色圆			70				
+no entry  					红色圆 			禁止通行						
+straight  					蓝色圆			直行		
+turn right 					蓝色圆			右转						
+roundabout 					蓝色圆			环岛			
+careful with passenger  	红色三角形		小心行人			
+careful with construction   红色三角形		小心工地					
+danger    					红色三角形		危险						
+no passing					红色圆形   		禁止超车							
+
+项目配置：
+需要将工程下Debug_PropertySheet属性表配置为自己PC的OpenCV路径
+编译运行即可

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="主对话框">
+      <UniqueIdentifier>{4f658cce-25dc-41b6-995b-93128cc0e15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenCV">
+      <UniqueIdentifier>{663e4441-ec9c-493f-afc9-65f8744f77ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tab_1对话框">
+      <UniqueIdentifier>{c9a49299-539b-46b0-aaa0-694661d607d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tab_2对话框">
+      <UniqueIdentifier>{30a9eb0e-533f-45ed-aa69-e2bf8d3c1918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图像处理算法">
+      <UniqueIdentifier>{673b1f6c-be69-4930-8744-eacbab797e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tab_3对话框">
+      <UniqueIdentifier>{300163b3-b2bd-4cbc-bbeb-5a2981926665}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TrafficSignRecognition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrafficSignRecognitionDlg.h">
+      <Filter>主对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="CvvImage.h">
+      <Filter>OpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>主对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTab1.h">
+      <Filter>Tab_1对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTab2.h">
+      <Filter>Tab_2对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="TrafficSignRecognitionMain.h">
+      <Filter>图像处理算法</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTab3.h">
+      <Filter>Tab_3对话框</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TrafficSignRecognition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrafficSignRecognitionDlg.cpp">
+      <Filter>主对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="CvvImage.cpp">
+      <Filter>OpenCV</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTab1.cpp">
+      <Filter>Tab_1对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTab2.cpp">
+      <Filter>Tab_2对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="TrafficSignRecognitionMain.cpp">
+      <Filter>图像处理算法</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTab3.cpp">
+      <Filter>Tab_3对话框</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TrafficSignRecognition.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TrafficSignRecognition.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\TrafficSignRecognition.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
